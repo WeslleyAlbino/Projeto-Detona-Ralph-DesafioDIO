@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+}
+
+body {
+    background-image: url(../imagens/parede\ tijolo-fundo.jpg);
+    background-size: cover;
+}
+
+.container {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-vida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-vida {
+    height: 50px;
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Press Start 2P", system-ui;
+    height: 90px;
+    width: 100%;
+    background-color: #141414;
+    color: #fe1e1e;
+}
+
+#time-game {
+    color: #faebd7;
+    padding-top: 15px;
+}
+#score {
+    color: #faebd7;
+    padding-top: 15px;
+}
+#vidas {
+    color: #faebd7;
+    padding-top: 15px;
+}
+
+.painel {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid #ffd500;
+    border-bottom: 5px solid #ffd500;
+}
+
+.msg-buttom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    background-color: #141414;
+    margin-top: 15px;
+}
+
+.msg-h2 {
+    color: #faebd7;
+    padding-top: 30px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: #88ff7f;
+}
+
+.enemy{
+    background-image: url(../imagens/Ralph-tela.png);
+    background-size: cover;
+}

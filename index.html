@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Ralph</title>
+    <link rel="stylesheet" href="./src/style/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- MENU SUPERIOR -->
+        <div class="menu">
+            <div class="menu-time">
+                <h2>Time Left</h2>
+                <h2 id="time-game"> 0 </h2>
+            </div>
+            <div class="menu-score">
+                <h2>You Score</h2>
+                <h2 id="score"> 0 </h2>
+            </div>            
+            <div class="menu-vida">
+                <img class="img-vida" src="./src/imagens/coração-vidas-nv.png">
+                <h2 id="vidas">x 5</h2>
+            </div>
+        </div>
+        <!-- PAINEL FUNCTION -->
+        <div class="painel">
+            <!-- painel superior -->
+            <div class="painal-row">
+                <div class="square" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+            <!-- painel meio -->
+             <div class="painal-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+            <!-- painel inferior -->
+             <div class="painal-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+        </div>
+        <div class="msg-buttom">
+            <h2 class="msg-h2">Detona Ralph</h2>
+        </div>
+    </div>
+    <script defer src="./src/script/engine.js"></script>
+</body>
+
+</html>
